@@ -13,6 +13,15 @@
 		7E36291A1E52B2A200C3C1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3629191E52B2A200C3C1B4 /* Assets.xcassets */; };
 		7E36291D1E52B2A200C3C1B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E36291B1E52B2A200C3C1B4 /* LaunchScreen.storyboard */; };
 		7E3629291E52B73000C3C1B4 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3629281E52B73000C3C1B4 /* HomeCell.swift */; };
+		7E36292B1E52BF2C00C3C1B4 /* MealVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36292A1E52BF2C00C3C1B4 /* MealVC.swift */; };
+		7E36292D1E52C04B00C3C1B4 /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36292C1E52C04B00C3C1B4 /* MealCell.swift */; };
+		7E36292F1E52C2EE00C3C1B4 /* CircularImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36292E1E52C2EE00C3C1B4 /* CircularImage.swift */; };
+		7E3629311E52C73E00C3C1B4 /* RecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3629301E52C73E00C3C1B4 /* RecipeVC.swift */; };
+		7E3629331E52C82E00C3C1B4 /* RecipeImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3629321E52C82E00C3C1B4 /* RecipeImageCell.swift */; };
+		7E3629351E52CBAC00C3C1B4 /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3629341E52CBAC00C3C1B4 /* DescriptionCell.swift */; };
+		7E3629371E52CBBB00C3C1B4 /* IntructionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3629361E52CBBB00C3C1B4 /* IntructionsCell.swift */; };
+		7E3629391E52CBC600C3C1B4 /* DirectionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3629381E52CBC600C3C1B4 /* DirectionsCell.swift */; };
+		7E36293B1E5390E000C3C1B4 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36293A1E5390E000C3C1B4 /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		7E36291C1E52B2A200C3C1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E36291E1E52B2A200C3C1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E3629281E52B73000C3C1B4 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		7E36292A1E52BF2C00C3C1B4 /* MealVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealVC.swift; sourceTree = "<group>"; };
+		7E36292C1E52C04B00C3C1B4 /* MealCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealCell.swift; sourceTree = "<group>"; };
+		7E36292E1E52C2EE00C3C1B4 /* CircularImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularImage.swift; sourceTree = "<group>"; };
+		7E3629301E52C73E00C3C1B4 /* RecipeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeVC.swift; sourceTree = "<group>"; };
+		7E3629321E52C82E00C3C1B4 /* RecipeImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeImageCell.swift; sourceTree = "<group>"; };
+		7E3629341E52CBAC00C3C1B4 /* DescriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
+		7E3629361E52CBBB00C3C1B4 /* IntructionsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntructionsCell.swift; sourceTree = "<group>"; };
+		7E3629381E52CBC600C3C1B4 /* DirectionsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsCell.swift; sourceTree = "<group>"; };
+		7E36293A1E5390E000C3C1B4 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +89,7 @@
 		7E3629241E52B2B800C3C1B4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7E36293A1E5390E000C3C1B4 /* Recipe.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -79,6 +98,12 @@
 			isa = PBXGroup;
 			children = (
 				7E3629281E52B73000C3C1B4 /* HomeCell.swift */,
+				7E36292C1E52C04B00C3C1B4 /* MealCell.swift */,
+				7E3629321E52C82E00C3C1B4 /* RecipeImageCell.swift */,
+				7E3629341E52CBAC00C3C1B4 /* DescriptionCell.swift */,
+				7E3629361E52CBBB00C3C1B4 /* IntructionsCell.swift */,
+				7E3629381E52CBC600C3C1B4 /* DirectionsCell.swift */,
+				7E36292E1E52C2EE00C3C1B4 /* CircularImage.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -87,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				7E3629141E52B2A200C3C1B4 /* HomeVC.swift */,
+				7E36292A1E52BF2C00C3C1B4 /* MealVC.swift */,
+				7E3629301E52C73E00C3C1B4 /* RecipeVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -164,9 +191,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E36292D1E52C04B00C3C1B4 /* MealCell.swift in Sources */,
 				7E3629151E52B2A200C3C1B4 /* HomeVC.swift in Sources */,
+				7E3629351E52CBAC00C3C1B4 /* DescriptionCell.swift in Sources */,
+				7E36293B1E5390E000C3C1B4 /* Recipe.swift in Sources */,
+				7E36292F1E52C2EE00C3C1B4 /* CircularImage.swift in Sources */,
+				7E3629331E52C82E00C3C1B4 /* RecipeImageCell.swift in Sources */,
 				7E3629291E52B73000C3C1B4 /* HomeCell.swift in Sources */,
 				7E3629131E52B2A200C3C1B4 /* AppDelegate.swift in Sources */,
+				7E36292B1E52BF2C00C3C1B4 /* MealVC.swift in Sources */,
+				7E3629391E52CBC600C3C1B4 /* DirectionsCell.swift in Sources */,
+				7E3629371E52CBBB00C3C1B4 /* IntructionsCell.swift in Sources */,
+				7E3629311E52C73E00C3C1B4 /* RecipeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +366,7 @@
 				7E3629231E52B2A200C3C1B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

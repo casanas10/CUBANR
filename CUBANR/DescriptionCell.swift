@@ -1,17 +1,16 @@
 //
-//  HomeCell.swift
+//  DescriptionCell.swift
 //  CUBANR
 //
-//  Created by alejandro casanas on 2/13/17.
+//  Created by alejandro casanas on 2/14/17.
 //  Copyright © 2017 alejandro casanas. All rights reserved.
 //
 
 import UIKit
 
-class HomeCell: UITableViewCell {
+class DescriptionCell: UITableViewCell {
 
-    @IBOutlet weak var recipeImage: UIImageView!
-    @IBOutlet weak var mealTime: UILabel!
+    @IBOutlet weak var recipeDescription: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,5 +22,5 @@ class HomeCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+
 }
